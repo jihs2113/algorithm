@@ -61,3 +61,6 @@ function matrix(value) {
   }
   return result;
 }
+
+console.log(matrix(test1));
+console.log(matrix(test2));
