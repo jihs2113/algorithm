@@ -5,5 +5,6 @@
   <li>indexOf | findIndex()</li>
   <li>sort() | sort((a,b) => a-b)</li>
   <li>some() | includes()</li>
+  <li>정규식 표현 /^[0-9]+$/.test(str)</li>
 </ul>
 
