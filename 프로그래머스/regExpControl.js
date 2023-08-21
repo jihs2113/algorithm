@@ -10,4 +10,3 @@ function solution(s) {
 
   return result;
 }
-//
