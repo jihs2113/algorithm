@@ -14,4 +14,6 @@ function calc_gcd(a, b) {
 }
 
 console.log(gcdlcm(3, 12));
-//최대공약수 최소공배수
+//최대공약수gcd 최소공배수lcm
+//greatest common divisor
+//least common multiple
