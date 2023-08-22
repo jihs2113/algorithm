@@ -5,6 +5,7 @@
   <li>indexOf | findIndex()</li>
   <li>sort() | sort((a,b) => a-b)</li>
   <li>some() | includes()</li>
+  <li>set() | const newArr = [...new Set(arr)]</li>
 </ul>
 
 <h3>정규식 표현</h3>
