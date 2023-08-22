@@ -10,6 +10,7 @@
   <li>flatMap()  | arr1.flatMap(x => [x * 2]);</li>
   <li>flat()  | const newArray = exampleArray.flat();  const newArray = exampleArray.flat(2); ex)[2,[1,[]]]</li>
   <li>apply()  | const maxValue = Math.max.apply(null, arr);   Math.max(...arr);</li>
+  <li>Array.from()  | Array.from(arrayLike[, mapFn[, thisArg]]) [배열로 변환하고자 하는 객체 [,map함수[,this로 사용할 값]] Array.from({length: 5나 다른 조건}, (v, i) => i + 1));Array.from([1, 2, 3], x => x + x);</li>
 </ul>
 
 <h3>정규식 표현</h3>
