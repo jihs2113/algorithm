@@ -6,6 +6,9 @@
   <li>sort() | sort((a,b) => a-b)</li>
   <li>some() | includes()</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
+  <li>reduce() , concat() | const reduceNewArray = exampleArray.reduce((acc, x) => acc.concat(x), []);</li>
+  <li>flatMap()  | arr1.flatMap(x => [x * 2]);</li>
+  <li>flat()  | const newArray = exampleArray.flat();  const newArray = exampleArray.flat(2); ex)[2,[1,[]]]</li>
 </ul>
 
 <h3>정규식 표현</h3>
