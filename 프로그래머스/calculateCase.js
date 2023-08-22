@@ -14,3 +14,4 @@ function solution(number) {
   }
   return answer;
 }
+//3개를 뽑는 문제여서 3중 중첩문을 사용했다.
