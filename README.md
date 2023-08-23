@@ -63,7 +63,7 @@ function myFunction(item, index, arr) {
 }
 
 </ul>
-<h3>Node.js / CI/CD 구축</h3>
+<h3>nodeJS Jenkins | CI/CD 구축</h3>
 <ul>
 <h6> Jenkins </h6>
   
