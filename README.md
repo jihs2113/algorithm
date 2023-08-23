@@ -7,12 +7,13 @@
   <li>some() | includes()</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
   <li>reduce() , concat() | const reduceNewArray = exampleArray.reduce((acc, x) => acc.concat(x), []);</li>
+  <li>foreach() , arr.forEach(function(item,index,arr2){}; : 콜백을 사용하여 새로운 배열을 반환한다</li>
   <li>flatMap()  | arr1.flatMap(x => [x * 2]);</li>
   <li>flat()  | const newArray = exampleArray.flat();  const newArray = exampleArray.flat(2); ex)[2,[1,[]]]</li>
   <li>apply()  | const maxValue = Math.max.apply(null, arr);   Math.max(...arr);</li>
-  <li>concat()  | const newArr = arr.concat('a', ['b', ['c']], 'abc'); const allRecords =[].concat(...response); flat과 비슷하지만 배열을 합치면서 이중문 까지만 풀어준다.</li>
+  <li>concat()  | const newArr = arr.concat('a', ['b', ['c']], 'abc'); const allRecords =[].concat(...response); : flat과 비슷하지만 배열을 합치면서 이중문 까지만 풀어준다.</li>
   <li>Array.isArray()  | Array.isArray(obj); object를 반환하여 확인한다. but typeof는 객체를 반환 </li>
-  <li>Array.from()  | Array.from(arrayLike[, mapFn[, thisArg]]) [배열로 변환하고자 하는 객체 [,map함수[,this로 사용할 값]] Array.from({length: 5나 다른 조건}, (v, i) => i + 1));Array.from([1, 2, 3], x => x + x);</li>
+  <li>Array.from()  | Array.from(arrayLike[, mapFn[, thisArg]]) : [배열로 변환하고자 하는 객체 [,map함수[,this로 사용할 값]] Array.from({length: 5나 다른 조건}, (v, i) => i + 1));Array.from([1, 2, 3], x => x + x);</li>
 </ul>
 
 <h3>정규식 표현</h3>
