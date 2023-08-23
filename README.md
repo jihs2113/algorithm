@@ -63,3 +63,20 @@ function myFunction(item, index, arr) {
 }
 
 </ul>
+<h3>Node.js / CI를 구축</h3>
+<ul>
+
+핵심 기능으로는,
+
+ESLint를 통한 코드 스타일 체크
+Prettier 적용 여부 체크
+jest를 이용한 테스팅 자동화 가 있다.
+이 정도만으로도 여러 개발자가 함께 작업할 때, 효율성과 정확성을 매우 높일 수 있다.
+
+위 기능 외에도, ESLint를 통한 체크 후 fix 자동화나 자동 Prettier 적용 등으로 CI에서 기능을 더 추가할 수 있다.
+
+또 만약 typescript를 사용하는 프로젝트라면, ESLint를 비롯한 여러 라이브러리에서 typescript를 컴파일 하는 과정 때문에, 설정이 달라질 수 있으니, 주의해야 한다.
+
+여기에 CD workflow까지 추가하여 자동으로 배포까지 진행할 수 있도록 만든다면, 개발 및 배포에 있어서 최소한의 CI/CD를 구축했다고 말할 수 있곘다.
+
+</ul>
