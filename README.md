@@ -67,7 +67,7 @@ function myFunction(item, index, arr) {
 <ul>
 <h6> Jenkins </h6>
   
-<h6> <link href="https://choseongho93.tistory.com/297"/></h6>
+<h6> https://choseongho93.tistory.com/297"</h6>
  
 <h6>Github Action</h6>
 <img width="311" alt="스크린샷 2023-08-23 오후 1 20 20" src="https://github.com/jihs2113/algorithm/assets/48509331/5d0651b9-57e4-4a15-ba03-9de25ba71a81"><br/>
