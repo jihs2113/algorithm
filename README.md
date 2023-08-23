@@ -52,3 +52,14 @@ indexs(function(index){
 
 
 </ul>
+
+<ul>
+  <li>forEach:   </li>
+    <h6> 1) const numbers = [65, 44, 12, 4]; </h6> 
+     numbers.forEach(myFunction)
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+
+</ul>
