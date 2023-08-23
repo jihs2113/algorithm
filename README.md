@@ -99,3 +99,23 @@ jest를 이용한 테스팅 자동화 가 있다.
 여기에 CD workflow까지 추가하여 자동으로 배포까지 진행할 수 있도록 만든다면, 개발 및 배포에 있어서 최소한의 CI/CD를 구축했다고 말할 수 있곘다.
 
 </ul>
+
+
+<h3>sever state 및 성능 팁</h3>
+<h6>react-query의 활용도 및 성능관리</h6>
+<ul>
+  <li>caching</li>
+  <li>server 데이터 중복 호출 방지
+</li>
+  <li>out-of-date 파악 후, stale 데이터를 백그라운드에서 제거
+</li>
+  <li>데이터가 언제 stale되는지 알고 있기
+</li>
+  <li>만료된 데이터를 빠르게 업데이트하기
+</li>
+  <li>페이지네이션, lazy loading 데이터의 성능 최적화
+</li>
+  <li>state의 메모리나 가비지 컬렉터 관리
+</li>
+
+</ul>
