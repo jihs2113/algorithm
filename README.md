@@ -63,7 +63,7 @@ function myFunction(item, index, arr) {
 }
 
 </ul>
-<h3>Node.js / CI를 구축</h3>
+<h3>Node.js / CI/CD 구축</h3>
 <ul>
 <h6>Github Action</h6>
 <img width="311" alt="스크린샷 2023-08-23 오후 1 20 20" src="https://github.com/jihs2113/algorithm/assets/48509331/5d0651b9-57e4-4a15-ba03-9de25ba71a81"><br/>
