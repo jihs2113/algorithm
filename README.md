@@ -39,14 +39,14 @@ const print =(i) => {
 
 nums(print)
 <h6> 2) let arr = [1,2,3,31]; </h6> 
-const a = (callback) => {
+const indexs = (callback) => {
   for(index in arr){
     callback(index)
   }
 }
 
-a(function(i){
-  console.log(i)
+indexs(function(index){
+  console.log(index)
   })
 
 
