@@ -23,7 +23,7 @@
   <li>'특정 단어로 끝나는지 검사. const fileName = 'index.html'; /html$/</li>
 </ul>
 
-<h2함수 예제</h2>
+<h3>함수 예제</h3>
 <ul>
   <li>콜백함수:   </li>
     <h6> 1) let arr = [1,2,3,31]; </h6> 
