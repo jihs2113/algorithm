@@ -25,7 +25,7 @@
 
 <h2함수 예제</h2>
 <ul>
-  <li>콜백함수: 
+  <li>콜백함수:   </li>
     <h6>let arr = [1,2,3,31]; </h6> 
       const nums =(callback) => {
   for(value of arr){
@@ -38,6 +38,6 @@ const print =(i) => {
 }
 
 nums(print)
-  </li>
-  <li>Deployment:<h6>expo</h6></li>
+
+
 </ul>
