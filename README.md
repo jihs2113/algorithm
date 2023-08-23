@@ -68,6 +68,18 @@ function myFunction(item, index, arr) {
 <h6>Github Action</h6>
 <img width="311" alt="스크린샷 2023-08-23 오후 1 20 20" src="https://github.com/jihs2113/algorithm/assets/48509331/5d0651b9-57e4-4a15-ba03-9de25ba71a81"><br/>
 <img width="330" alt="스크린샷 2023-08-23 오후 1 20 31" src="https://github.com/jihs2113/algorithm/assets/48509331/c6b74836-b4ef-4814-987d-f721bb60e527">
+
+<h6>$ npm install jest --save-dev</h6>
+<h6>"test": "jest"</h6><br/>
+
+<img width="435" alt="스크린샷 2023-08-23 오후 1 26 51" src="https://github.com/jihs2113/algorithm/assets/48509331/1269f183-55cc-439e-b72b-c4bcba525e84">
+
+<h6>$ npm install @babel/core @babel/preset-env --save-dev</h6>
+
+<img width="629" alt="스크린샷 2023-08-23 오후 1 29 13" src="https://github.com/jihs2113/algorithm/assets/48509331/44838c5f-173a-4db4-9fb6-9f42b928eeb6">
+
+
+
   
 핵심 기능으로
 
