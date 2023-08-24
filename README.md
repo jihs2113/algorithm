@@ -2,7 +2,7 @@
 
 <h3>자주 쓰이는 문법 array 와 object</h3>
 <ul>
-  <li>indexOf | findIndex()</li>
+  <li>indexOf | findIndex() | lastIndexOf() | const count = s.slice(0, i).lastIndexOf(char);  : slice로 자른 후 거꾸로 탐색을 한다.</li>
   <li>sort() | sort((a,b) => a-b)</li>
   <li>some() | includes()</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
