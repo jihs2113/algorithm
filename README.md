@@ -7,7 +7,7 @@
   <li>some() | includes()</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
   <li>reduce() , concat() | const reduceNewArray = exampleArray.reduce((acc, x) => acc.concat(x), []);</li>
-  <li>foreach() , arr.forEach(function(item,index,arr2){}; : 콜백을 사용하여 새로운 배열을 반환한다</li>
+  <li>forEach() , arr.forEach(function(item,index,arr2){}; : 콜백을 사용하여 새로운 배열을 반환한다</li>
   <li>flatMap()  | arr1.flatMap(x => [x * 2]);</li>
   <li>flat()  | const newArray = exampleArray.flat();  const newArray = exampleArray.flat(2); ex)[2,[1,[]]]</li>
   <li>apply()  | const maxValue = Math.max.apply(null, arr);   Math.max(...arr);</li>
