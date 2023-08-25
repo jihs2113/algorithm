@@ -5,7 +5,7 @@
   <li>indexOf | findIndex() | lastIndexOf() | const count = s.slice(0, i).lastIndexOf(char);  : slice로 자른 후 거꾸로 탐색을 한다.</li>
   <li>sort() | sort((a,b) => a-b)</li>
   <li>some() | includes()</li>
-  <li>replaceAll() | const newList = list.replaceAll('B', ""); : String 해당하는 문자들을 전부 ""로 바꾸고 리턴해준다.</li>
+  <li>replace() | replaceAll() | string.replace(/[aeiou]/g, ''); const newList = list.replaceAll('B', ""); : String 해당하는 문자들을 전부 ""로 바꾸고 리턴해준다.</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
   <li>reduce() , concat() | const reduceNewArray = exampleArray.reduce((acc, x) => acc.concat(x), []);</li>
   <li>forEach() , arr.forEach(function(item,index,arr2){}; : 콜백을 사용하여 새로운 배열을 반환한다</li>
