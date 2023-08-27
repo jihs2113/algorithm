@@ -4,6 +4,7 @@
 <ul>
   <li>indexOf | findIndex() | lastIndexOf() | const count = s.slice(0, i).lastIndexOf(char);  : slice로 자른 후 거꾸로 탐색을 한다.</li>
   <li>sort() | sort((a,b) => a-b)</li>
+  <li>at() | array.sort((a,b)=>{return a-b;}).at(Math.floor(array.length/2));  : at은 배열 요소에 접근하여 index값을 아는 경우 루프를 돌리지 않고 value를 가져올수있다.</li>
   <li>some() | includes()</li>
   <li>replace() | replaceAll() | string.replace(/[aeiou]/g, ''); const newList = list.replaceAll('B', ""); : String 해당하는 문자들을 전부 ""로 바꾸고 리턴해준다.</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
