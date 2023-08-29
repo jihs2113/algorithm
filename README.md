@@ -1,4 +1,4 @@
-# algorithm
+# algorithm 프로그래머스 및 유형문제 정리
 
 <h3>자주 쓰이는 문법 array 와 object</h3>
 <ul>
