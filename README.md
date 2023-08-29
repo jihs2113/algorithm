@@ -8,6 +8,7 @@
   <li>some() | includes()   : true false를 반환해준다.</li>
   <li>replace() | replaceAll() | string.replace(/[aeiou]/g, ''); const newList = list.replaceAll('B', ""); : String 해당하는 문자들을 전부 ""로 바꾸고 리턴해준다.</li>
   <li>set() | const newArr = [...new Set(arr)]</li>
+  <li>repeat() |  fill()  | arr.reduce((list, num) => [...list, ...new Array(num).fill(num)], []);    : repeat대신 fill을 활용했다.</li>
   <li>reduce() , concat() | const reduceNewArray = exampleArray.reduce((acc, x) => acc.concat(x), []);</li>
   <li>forEach() , arr.forEach(function(item,index,arr2){}; : 콜백을 사용하여 새로운 배열을 반환한다</li>
   <li>flatMap()  | arr1.flatMap(x => [x * 2]);</li>
