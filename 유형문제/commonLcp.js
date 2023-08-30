@@ -1,6 +1,6 @@
 //가장 긴 공통 접두사
 //
-//
+//let strs = ['flower','flow','flight'];
 
 var longestCommonPrefix = function (strs) {
   let prefix = "";
@@ -19,3 +19,4 @@ var longestCommonPrefix = function (strs) {
   }
   return prefix;
 };
+//"fl"
