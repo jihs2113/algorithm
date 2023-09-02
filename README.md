@@ -30,6 +30,15 @@
 
 <h3>함수 예제</h3>
 <ul>
+  <li>구조 분해할당</li>
+  <h6>한번에 인덱스끼리 swap </h6> 
+    let arr = "hello";
+    let newArray = arr.split('');
+
+    [newArray[1],newArray[2]] = [newArray[2],newArray[1]];
+    result => newArray.join('');
+    result = 'hlelo'
+
   <li>콜백함수:   </li>
     <h6> 1) let arr = [1,2,3,31]; </h6> 
       const nums =(callback) => {
