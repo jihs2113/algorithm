@@ -39,6 +39,50 @@
     result => newArray.join('');
     result = 'hlelo'
 
+  <h6>함수의 반환된 배열 </h6> 
+   function foo() {
+  return [1, 2];
+}
+
+var [a, b] = foo();
+console.log(a); // 1
+console.log(b); // 2
+
+  <h6>기본 변수 할당 </h6> 
+var a = { p: 42, q: true };
+var { p, q } = a;
+
+console.log(p); // 42
+console.log(q); // true
+
+
+  <h6>새로운 변수 이름에 할당 </h6> 
+var a = { p: 42, q: true };
+var { p: foo, q: bar };
+
+console.log(foo); // 42
+console.log(bar); // true
+
+  <h6>매개변수에서 구조분해 </h6> 
+var user = {
+  id: 42,
+  displayName: 'jdoe',
+  fullName: { firstName: 'John', lastName: 'Doe' },
+};
+
+function userId({ id }) {
+  return id;
+}
+
+console.log(userId(user)); // 42
+
+  <h6>동적 변수 이름 사용 </h6> 
+let target = "z"; 
+let { [target]: foo } = { z: "bar" };
+
+console.log(foo); // "bar"
+
+
   <li>콜백함수:   </li>
     <h6> 1) let arr = [1,2,3,31]; </h6> 
       const nums =(callback) => {
