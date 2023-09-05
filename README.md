@@ -31,6 +31,13 @@
 <h3>함수 예제</h3>
 <ul>
   <li>구조 분해할당</li>
+  <h6>실전 사용 예시</h6> 
+  
+  function solution(binomial) {
+    const [a,ex,b] = binomial.split(" ");    
+    return (ex === "+")? +a+ +b : (ex === "-")? a - b : a*b
+  }
+  
   <h6>한번에 인덱스끼리 swap </h6> 
     let arr = "hello";
     let newArray = arr.split('');
