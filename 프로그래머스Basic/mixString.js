@@ -3,7 +3,6 @@
 //let b = "bbbbb";
 
 
-
 function solution(str1, str2) {
     var answer = '';
     let str = [...str1];
