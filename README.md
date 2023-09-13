@@ -37,6 +37,18 @@
     const [a,ex,b] = binomial.split(" ");    
     return (ex === "+")? +a+ +b : (ex === "-")? a - b : a*b
   }
+
+  let id_pw = ["meosseugi", "1234"];
+  let db = [["rardss", "123"], ["yyoom", "1234"], ["meosseugi", "1234"]];
+  
+  function solution(id_pw, db) {
+    const [ userId, userPw ] = id_pw;
+    for (const [ dbId, dbPw ] of db) {
+        if (userId === dbId && userPw === dbPw) return "login";
+        else if (userId === dbId && userPw !== dbPw) return "wrong pw";
+    }
+    return "fail";
+}
   
   <h6>한번에 인덱스끼리 swap </h6> 
     let arr = "hello";
