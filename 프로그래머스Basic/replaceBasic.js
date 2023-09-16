@@ -11,6 +11,7 @@ function solution(my_string, s, e) {
 }
 
 
+//자른 부분을 뒤집고 그 부분을 replace를 활용
 function solution(my_string, s, e) {
     var answer = '';
     var str = my_string.substring(s,e+1);
