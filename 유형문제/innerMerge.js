@@ -18,12 +18,12 @@ var merge = function (intervals) {
 
   let result = [intervals[0]];
 
-  for (let interval of intervals) {
+  for (let values of intervals) {
     let pervious = result[result.length - 1];
-    if (previous[1] >= interval[0]) {
+    if (previous[1] >= values[0]) {
       //merge
-      previous[1] = Math.max(previous[1], interval[1]);
-    } else result.push(interval);
+      previous[1] = Math.max(previous[1], values[1]);
+    } else result.push(values);
   }
   return result;
 };
