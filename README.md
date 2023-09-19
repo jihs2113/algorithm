@@ -28,6 +28,14 @@
   <li>'특정 단어로 끝나는지 검사. const fileName = 'index.html'; /html$/</li>
 </ul>
 
+<h3>유형 분석</h3>
+<ul>
+  <li>그리디</li>
+  <li>완전탐색</li>
+  <li>다이나믹</li>
+  <li>탐색</li>
+</ul>
+
 <h3>함수 예제</h3>
 <ul>
   <li>구조 분해할당</li>
