@@ -19,4 +19,3 @@ function solution(myString, pat) {
     return result;
 }
 
-
