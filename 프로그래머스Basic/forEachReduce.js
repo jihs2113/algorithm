@@ -36,5 +36,5 @@ function solution(s) {
     return arr.reduce((a,b) => parseInt(a) + parseInt(b),0)
 }
 
-
+//map(Number)를 활용하여 문자열을 숫자로 변환과 동시에 reduce로 전체 합을 구한다
 var solution=s=>s.split(' ').reduce((t,c)=>c=='Z'?t.slice(0,-1):[...t,c],[]).map(Number).reduce((a,b)=>a+b,0)
