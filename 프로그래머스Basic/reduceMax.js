@@ -1,9 +1,10 @@
 //문자열 묶기
-//배열에서 제일 긴 문자열의 갯수합을 return
+//가장 개수가 많은 그룹의 갯수 합  return
 //strArr	                    result
 //["a","bc","d","efg","hi"]	      2
 
 
+//Map 활용
 function solution(strArr) {
     const counter = new Map();
     for (const str of strArr) {
@@ -24,3 +25,5 @@ function solution(strArr) {
 function solution(strArr) {
     return Math.max(...strArr.reduce((p, c) => (p[c.length]++, p), Array(31).fill(0)));
 }
+
+

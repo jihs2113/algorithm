@@ -6,7 +6,7 @@
 //"10 Z 20 Z 1"	      1
 
 
-
+//pop을 활용하여 그 전 배열의 맨 뒷자리를 빼준다.
 function solution(s) {
     const stack = []
 
@@ -17,6 +17,7 @@ function solution(s) {
 
     return stack.length ? stack.reduce((pre, cur) => pre + cur) : 0;
 }
+
 function solution(s) {
     s = s.split(' ');
     let arr = [];
